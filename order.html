@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your info</title>
+  <link rel="stylesheet" href="src/order.css">
+</head>
+<body>
+  <form action="order2.html" method="GET" onsubmit="return accountCreate()">
+    <section class="sign-up-section">
+      <div class="sign-up-section__header">
+        <div class="sign-up-section__your-info active-page">Your info</div>
+        <div class="sign-up-section__your-preferences">Your preferences</div>
+      </div>
+      <div class="sign-up-section__fields-user-info">
+        <div class="sign-up-section__name section-row-order">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+          <div class="error" id="name-error"></div>
+        </div>
+        <div class="sign-up-section__email section-row-order">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email">
+          <div class="error" id="email-error"></div>
+        </div>
+        <div class="sign-up-section__phone section-row-order">
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" name="phone">
+          <div class="error" id="phone-error"></div>
+        </div>
+        <div class="sign-up-section__address section-row-order">
+          <label for="address">Address</label>
+          <input type="text" id="address" name="address">
+          <div class="error" id="address-error"></div>
+        </div>
+        <div class="sign-up-section__city section-row-order">
+          <label for="city">City</label>
+          <input type="text" id="city" name="city">
+          <div class="error" id="city-error"></div>
+        </div>
+        <div class="sign-up-section__state section-row-order">
+          <label for="state">State</label>
+          <input type="text" id="state" name="state">
+          <div class="error" id="state-error"></div>
+        </div>
+        <div class="sign-up-section__zip section-row-order">
+          <label for="zip">Zip</label>
+          <input type="text" id="zip" name="zip">
+          <div class="zip-error error" id="zip-error"></div>
+        </div>
+      </div>
+      <div class="sign-up-section__footer">
+        <input type="submit" value="Next >">
+      </div>
+    </section>
+  </form>
+
+  <script src="src/order.js"></script>
+</body>
+</html>
