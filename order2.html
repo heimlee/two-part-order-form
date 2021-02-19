@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your preferences</title>
+  <link rel="stylesheet" href="src/order.css">
+</head>
+<body>
+  <form action="result.html" method="GET" onsubmit="return newUrl()">
+    <div>
+      <input id="name" name="name" type="hidden" value="">
+      <input id="email" name="email" type="hidden" value="">
+      <input id="phone" name="phone" type="hidden" value="">
+      <input id="address" name="address" type="hidden" value="">
+      <input id="city" name="city" type="hidden" value="">
+      <input id="state" name="state" type="hidden" value="">
+      <input id="zip" name="zip" type="hidden" value="">
+    </div>
+    <section class="sign-up-section">
+      <div class="sign-up-section__header">
+        <div class="sign-up-section__your-info">Your info</div>
+        <div class="sign-up-section__your-preferences active-page">Your preferences</div>
+      </div>
+      <div class="sign-up-section__fields-user-preferences">
+        <div class="sign-up-section__allergies section-row-order2">
+          <label class="sign-up-section__allergies-title title" for="allergies">Food allergies</label>
+          <textarea name="allergies" id="allergies"></textarea>
+        </div>
+        <div class="sign-up-section__frequency section-row-order2">
+          <div class="sign-up-section__frequency-title title">Frequency</div>
+          <div>
+            <input type="radio" name="frequency" id="weekly" value="Weekly">
+            <label for="weekly">Weekly</label>
+          </div>
+          <div>
+            <input type="radio" name="frequency" id="biweekly" value="Biweekly">
+            <label for="biweekly">Biweekly</label>
+          </div>
+          <div>
+            <input type="radio" name="frequency" id="monthly" value="Monthly">
+            <label for="monthly">Monthly</label>
+          </div>
+        </div>
+        <div class="sign-up-section__package-size section-row-order2">
+          <div class="sign-up-section__package-size-title title">Package size</div>
+          <div>
+            <input type="radio" name="size" id="taste-test" value="Taste test">
+            <label for="taste-test">Taste test</label>
+          </div>
+          <div>
+            <input type="radio" name="size" id="healthy-highlight" value="Healthy Highlight">
+            <label for="healthy-highlight">Healthy Highlight</label>
+          </div>
+          <div>
+            <input type="radio" name="size" id="full-plate" value="Full plate">
+            <label for="full-plate">Full plate</label>
+          </div>
+        </div>
+      </div>
+      <div class="sign-up-section__footer">
+        <input type="submit" value="Sign Up">
+      </div>
+    </section>
+  </form>
+
+  <script src="src/order2.js"></script>
+</body>
+</html>
