@@ -1,0 +1,202 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sign-up-section {
+  margin-top: 50px;
+  width: 390px;
+}
+
+.sign-up-section__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sign-up-section__header div {
+  padding: 10px;
+  color: #dddddd;
+  background-color: #a3a3a3;
+  border: 1px solid #9b9b9b;
+}
+
+.sign-up-section__header .active-page {
+  cursor: pointer;
+  color: #faed34;
+  background-color: #6d6d6d;
+  border: 1px solid #333333;
+}
+
+.sign-up-section__fields-user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.sign-up-section__fields-user-info .section-row-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 400px;
+  height: 30px;
+}
+
+.sign-up-section__fields-user-info .section-row-order label {
+  font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  padding-bottom: 0;
+  padding-right: 5px;
+  text-align: right;
+  width: 90px;
+}
+
+.sign-up-section__fields-user-info .section-row-order input {
+  border: 1px solid #666666;
+  padding: 5px;
+  height: 25px;
+  width: 230px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.sign-up-section__fields-user-info .section-row-order .error {
+  font-size: 16px;
+  position: fixed;
+  margin-left: 325px;
+  text-align: left;
+}
+
+.sign-up-section__fields-user-info .section-row-order .zip-error {
+  margin-left: 245px;
+}
+
+.sign-up-section__fields-user-info .sign-up-section__address {
+  margin-top: 10px;
+}
+
+.sign-up-section__fields-user-info .sign-up-section__city input {
+  width: 150px;
+}
+
+.sign-up-section__fields-user-info .sign-up-section__state input {
+  width: 100px;
+}
+
+.sign-up-section__fields-user-info .sign-up-section__zip input {
+  width: 150px;
+}
+
+.sign-up-section__fields-user-preferences {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.sign-up-section__fields-user-preferences .section-row-order2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+}
+
+.sign-up-section__fields-user-preferences .section-row-order2 .title {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.sign-up-section__fields-user-preferences .section-row-order2 textarea {
+  height: 150px;
+  width: 200px;
+  margin-left: 40px;
+  outline: none;
+  padding: 5px;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.sign-up-section__fields-user-preferences .section-row-order2 input {
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
+.sign-up-section__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  margin-top: 20px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.sign-up-section__footer input {
+  padding: 10px 20px;
+  background: #ececec;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ececec), color-stop(35%, #c1c1c1), to(#6b6b6b));
+  background: linear-gradient(180deg, #ececec 0%, #c1c1c1 35%, #6b6b6b 100%);
+  color: #faed34;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.result {
+  margin-top: 50px;
+  width: 300px;
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: #e7e7e7;
+}
+
+.result h3 {
+  margin: 10px 0;
+}
+/*# sourceMappingURL=order.css.map */
