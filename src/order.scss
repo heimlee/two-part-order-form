@@ -1,3 +1,6 @@
+@import '_order2.scss';
+@import '_result.scss';
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -94,40 +97,6 @@ body {
   }
 }
 
-.sign-up-section__fields-user-preferences {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-
-  .section-row-order2 {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-
-    .title {
-      font-weight: bold;
-      margin: 10px 0;
-    }
-
-    textarea {
-      height: 150px;
-      width: 200px;
-      margin-left: 40px;
-      outline: none;
-      padding: 5px;
-      resize: none;
-      border-radius: 5px;
-      border: 1px solid #000;
-    }
-
-    input {
-      margin-top: 5px;
-      margin-left: 40px;
-    }
-  }
-}
-
 .sign-up-section__footer {
   display: flex;
   width: 300px;
@@ -144,18 +113,5 @@ body {
     font-size: 16px;
     cursor: pointer;
     outline: none;
-  }
-}
-
-// RESULT
-.result {
-  margin-top: 50px;
-  width: 300px;
-  border: 1px solid #000;
-  padding: 10px;
-  background-color: #e7e7e7;
-
-  h3 {
-    margin: 10px 0;
   }
 }
