@@ -1,0 +1,15 @@
+@import './order/_order';
+@import './order2/_order2';
+@import './result/_result';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
