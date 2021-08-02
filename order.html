@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your info</title>
+  <title>Registration - Your info</title>
   <link rel="stylesheet" href="src/style.css">
+  <script src="https://kit.fontawesome.com/384fd8fbf2.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <form action="order2.html" method="GET" onsubmit="return accountCreate()">
     <section class="sign-up-section">
       <div class="sign-up-section__header">
-        <div class="sign-up-section__your-info active-page">Your info</div>
-        <div class="sign-up-section__your-preferences">Your preferences</div>
+        <div class="sign-up-section__header-boxes sign-up-section__your-info active-page">Your info</div>
+        <div class="sign-up-section__header-boxes sign-up-section__your-preferences">Your preferences</div>
       </div>
       <div class="sign-up-section__fields-user-info">
         <div class="sign-up-section__name section-row-order">
@@ -51,7 +52,10 @@
         </div>
       </div>
       <div class="sign-up-section__footer">
-        <input type="submit" value="Next >">
+        <button type="submit" class="sign-up-section__footer-button">
+          <p class="footer-button-title">Next</p>
+          <i class="fas fa-chevron-right"></i>
+        </button>
       </div>
     </section>
   </form>
