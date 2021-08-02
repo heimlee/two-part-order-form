@@ -13,11 +13,11 @@ let packageSizeValue = hrefOrderWithParams.get('size');
 
 let result = document.getElementById('result');
 
-hrefOrderWithParams.forEach(function(value, key) {
+hrefOrderWithParams.forEach((value, key) => {
   let dataElem = document.createElement('div');
-  dataElem.textContent = `${key}=${value}`;
+  dataElem.textContent = `${key} = ${value}`;
   result.appendChild(dataElem);
 });
 
 let nameCorrectKey = document.getElementsByTagName('div');
-nameCorrectKey[0].textContent = `name=${nameValue}`;
+nameCorrectKey[0].textContent = `name = ${nameValue}`;

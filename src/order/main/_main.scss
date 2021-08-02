@@ -1,0 +1,54 @@
+$primary-text-color: #030303;
+
+.section-row-order {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  width: 380px;
+}
+
+.section-row-order > label {
+  color: $primary-text-color;
+  font-weight: bold;
+  user-select: none;
+  padding-bottom: 0;
+  padding-right: 5px;
+  text-align: right;
+  width: 90px;
+}
+
+.section-row-order > input {
+  border: 1px solid $primary-text-color;
+  height: 25px;
+  outline: none;
+  padding: 5px;
+  width: 230px;
+}
+
+.error {
+  font-size: 16px;
+  margin-left: 325px;
+  position: fixed;
+  text-align: left;
+}
+
+.zip-error {
+  margin-left: 245px;
+}
+
+.sign-up-section__address {
+  margin-top: 10px;
+}
+
+.sign-up-section__city > input {
+  width: 150px;
+}
+
+.sign-up-section__state > input {
+  width: 100px;
+}
+
+.sign-up-section__zip > input {
+  width: 150px;
+}

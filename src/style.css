@@ -1,0 +1,222 @@
+.sign-up-section__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sign-up-section__header-boxes {
+  background-color: #f2f2f2;
+  border: 1px solid #d5d5d5;
+  color: #454545;
+  padding: 12px;
+  text-align: center;
+  width: 100%;
+}
+
+.active-page {
+  background-color: #030303;
+  border: 1px solid #030303;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.section-row-order {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 30px;
+  width: 380px;
+}
+
+.section-row-order > label {
+  color: #030303;
+  font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  padding-bottom: 0;
+  padding-right: 5px;
+  text-align: right;
+  width: 90px;
+}
+
+.section-row-order > input {
+  border: 1px solid #030303;
+  height: 25px;
+  outline: none;
+  padding: 5px;
+  width: 230px;
+}
+
+.error {
+  font-size: 16px;
+  margin-left: 325px;
+  position: fixed;
+  text-align: left;
+}
+
+.zip-error {
+  margin-left: 245px;
+}
+
+.sign-up-section__address {
+  margin-top: 10px;
+}
+
+.sign-up-section__city > input {
+  width: 150px;
+}
+
+.sign-up-section__state > input {
+  width: 100px;
+}
+
+.sign-up-section__zip > input {
+  width: 150px;
+}
+
+.sign-up-section__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.sign-up-section__footer-button {
+  background: #030303;
+  border: 2px solid #030303;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 30px 20px;
+  outline: none;
+  padding: 10px 20px;
+}
+
+.footer-button-title {
+  margin-right: 10px;
+}
+
+.sign-up-section {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+          box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  margin-top: 50px;
+  width: 390px;
+}
+
+.sign-up-section__fields-user-info {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+}
+
+.sign-up-section__fields-user-preferences {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
+.section-row-order2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 280px;
+}
+
+.section-row-order2 .title {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.sign-up-section__allergies-textarea {
+  border: 1px solid #030303;
+  height: 150px;
+  margin-left: 40px;
+  outline: none;
+  padding: 5px;
+  resize: none;
+  width: 200px;
+}
+
+.section-row-order2 input {
+  color: #030303;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
+.section-row-order2 label {
+  color: #030303;
+}
+
+.result {
+  background-color: #ffffff;
+  border: 1px solid #030303;
+  color: #030303;
+  margin-top: 50px;
+  padding: 20px 30px;
+  width: 390px;
+}
+
+.result-title {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.result > div {
+  color: #030303;
+  padding-top: 5px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e8eaed;
+  font-family: sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */

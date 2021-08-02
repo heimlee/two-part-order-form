@@ -1,0 +1,23 @@
+$primary-text-color: #030303;
+
+.sign-up-section__footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.sign-up-section__footer-button {
+  background: $primary-text-color;
+  border: 2px solid $primary-text-color;
+  color: #ffffff;
+  display: flex;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 30px 20px;
+  outline: none;
+  padding: 10px 20px;
+}
+
+.footer-button-title {
+  margin-right: 10px;
+}

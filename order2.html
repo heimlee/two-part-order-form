@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your preferences</title>
-  <link rel="stylesheet" href="src/order.css">
+  <title>Registration - Your preferences</title>
+  <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
   <form action="result.html" method="GET" onsubmit="return newUrl()">
@@ -19,13 +19,13 @@
     </div>
     <section class="sign-up-section">
       <div class="sign-up-section__header">
-        <div class="sign-up-section__your-info">Your info</div>
-        <div class="sign-up-section__your-preferences active-page">Your preferences</div>
+        <div class="sign-up-section__header-boxes sign-up-section__your-info">Your info</div>
+        <div class="sign-up-section__header-boxes sign-up-section__your-preferences active-page">Your preferences</div>
       </div>
       <div class="sign-up-section__fields-user-preferences">
         <div class="sign-up-section__allergies section-row-order2">
           <label class="sign-up-section__allergies-title title" for="allergies">Food allergies</label>
-          <textarea name="allergies" id="allergies"></textarea>
+          <textarea class="sign-up-section__allergies-textarea" name="allergies" id="allergies"></textarea>
         </div>
         <div class="sign-up-section__frequency section-row-order2">
           <div class="sign-up-section__frequency-title title">Frequency</div>
@@ -59,11 +59,13 @@
         </div>
       </div>
       <div class="sign-up-section__footer">
-        <input type="submit" value="Sign Up">
+        <button type="submit" class="sign-up-section__footer-button">
+          Sign Up
+        </button>
       </div>
     </section>
   </form>
 
-  <script src="src/order2.js"></script>
+  <script src="src/order2/order2.js"></script>
 </body>
 </html>

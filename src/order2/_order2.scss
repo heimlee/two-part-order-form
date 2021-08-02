@@ -1,0 +1,39 @@
+$primary-text-color: #030303;
+
+.sign-up-section__fields-user-preferences {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.section-row-order2 {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+
+.section-row-order2 .title {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.sign-up-section__allergies-textarea {
+  border: 1px solid $primary-text-color;
+  height: 150px;
+  margin-left: 40px;
+  outline: none;
+  padding: 5px;
+  resize: none;
+  width: 200px;
+}
+
+.section-row-order2 input {
+  color: $primary-text-color;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
+.section-row-order2 label {
+  color: $primary-text-color;
+}

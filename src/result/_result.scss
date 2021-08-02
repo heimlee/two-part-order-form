@@ -1,0 +1,20 @@
+$primary-color: #030303;
+
+.result {
+  background-color: #ffffff;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  margin-top: 50px;
+  padding: 20px 30px;
+  width: 390px;
+}
+
+.result-title {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.result > div {
+  color: $primary-color;
+  padding-top: 5px;
+}
