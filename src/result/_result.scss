@@ -1,11 +1,20 @@
-.result {
-  margin-top: 50px;
-  width: 300px;
-  border: 1px solid #000;
-  padding: 10px;
-  background-color: #e7e7e7;
+$primary-color: #030303;
 
-  h3 {
-    margin: 10px 0;
-  }
+.result {
+  background-color: #ffffff;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  margin-top: 50px;
+  padding: 20px 30px;
+  width: 390px;
+}
+
+.result-title {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.result > div {
+  color: $primary-color;
+  padding-top: 5px;
 }
