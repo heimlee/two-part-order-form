@@ -134,20 +134,9 @@
 }
 
 .sign-up-section__fields-user-preferences {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 20px;
-}
-
-.sign-up-section__fields-user-preferences .section-row-order2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -155,28 +144,43 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 300px;
+  margin-top: 20px;
 }
 
-.sign-up-section__fields-user-preferences .section-row-order2 .title {
+.section-row-order2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 280px;
+}
+
+.section-row-order2 .title {
   font-weight: bold;
   margin: 10px 0;
 }
 
-.sign-up-section__fields-user-preferences .section-row-order2 textarea {
+.sign-up-section__allergies-textarea {
+  border: 1px solid #030303;
   height: 150px;
-  width: 200px;
   margin-left: 40px;
   outline: none;
   padding: 5px;
   resize: none;
-  border-radius: 5px;
-  border: 1px solid #000;
+  width: 200px;
 }
 
-.sign-up-section__fields-user-preferences .section-row-order2 input {
+.section-row-order2 input {
+  color: #030303;
   margin-top: 5px;
   margin-left: 40px;
+}
+
+.section-row-order2 label {
+  color: #030303;
 }
 
 .result {
