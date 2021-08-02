@@ -1,11 +1,3 @@
-.sign-up-section {
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
-          box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
-  margin-top: 50px;
-  width: 390px;
-}
-
 .sign-up-section__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,20 +18,6 @@
   border: 1px solid #030303;
   color: #ffffff;
   cursor: pointer;
-}
-
-.sign-up-section__fields-user-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 30px;
 }
 
 .section-row-order {
@@ -131,6 +109,28 @@
 
 .footer-button-title {
   margin-right: 10px;
+}
+
+.sign-up-section {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+          box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  margin-top: 50px;
+  width: 390px;
+}
+
+.sign-up-section__fields-user-info {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
 }
 
 .sign-up-section__fields-user-preferences {
